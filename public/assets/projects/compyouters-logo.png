@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Compyouters.ORG</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/static/favicon.png" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/md.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <meta name="description" content="Ever wondered how the flow of electrons power your 3-hour online gaming session at midnight? Explore the inner workings of hardware at Compyouters.ORG!">
+    <meta name="keywords" content="computers, technology, coding, CPU, software, hardware, education, learning">
+    <meta name="author" content="Muhammad Usman Mithani">
+    <meta name="theme-color" content="#c44b7d">
+    <script src="./js/metadata.js"></script>
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <header>
+            <div class="logo-div">
+                <!-- both light and dark logos overlayed exactly over each other -->
+                <a href="./index.html"><img src="assets/images/static/logo_light.png" class="logo" alt="Compyouters Logo">
+                <img src="assets/images/static/logo_dark.png" class="logo faded-out" alt="Compyouters Logo"></a>
+            </div>
+            <div class="theme">
+                <span class="theme-icon">
+                    <label class="switch">
+                        <input class="theme-switcher" type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </span>
+            </div>
+        </header>
+        <div class="text">
+            <div class="motto">
+                <span class="caption"></span><span class="highlight">|</span>
+                <audio src="assets/audio/typing1.mp3" class="audio"></audio>
+                <audio src="assets/audio/typing2.mp3" class="audio"></audio>
+                <audio src="assets/audio/typing3.mp3" class="audio"></audio>
+                <audio src="assets/audio/typing4.mp3" class="audio"></audio>
+            </div>
+            <p class="description">
+                When you think about the inner workings of a computer, the first thing that comes to mind are probably 1s and 0s. But <b>HOW</b> do these numbers show you movies, run games and enable you to video chat with anyone across the world simultaneously? Read more to find out.
+            </p>
+            <br>
+            <p>
+                Meet <a href="./team.html"><span>our Team</span></a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Markdown Loader -->
+    <div class="md-loader">
+        <md-block class="md" src="README.md">
+        </md-block>
+        <a href="./renderer.html" class="link-btn start-btn"><span>Start Reading </span><i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="hide">
+        <div class="footer">
+            <div class="footer-text">
+                <p>
+                    <span class="footer-text-span">Want to donate? </span>
+                    <a href="./donate.html"><span class="footer-text-span">Contact Us</span></a>
+                </p>
+                <p>
+                    <span class="footer-text-span">Made with ❤️ by</span>
+                    <a href="./team.html"><span class="footer-text-span">Our Team</span></a>
+                </p>
+            </div>
+            <div class="footer-links">
+                <a href="https://github.com/MuhammadUsmanMithani/compyouters" title="GitHub"><i class="fa-brands fa-github fa-xl"></i></a>
+                <a href="/cdn-cgi/l/email-protection#f39e869b929e9e929786809e929d9e9a879b929d9ac1b3949e929a9fdd909c9e" title="Email"><i class="fa-solid fa-envelope fa-xl"></i></a>
+            </div>
+    </footer>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/theme.js"></script>
+    <script type="module" src="js/md-block.js"></script>
+    <script src="js/landing.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"3a9aebcdf4f641c4a62de9125eb4239d","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
