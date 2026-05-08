@@ -218,14 +218,16 @@ export default function Hero() {
                 <span className="relative z-10">Initialize Portfolio</span>
               </a>
             </MagneticButton>
-            <MagneticButton strength={0.25} radius={80}>
+            <MagneticButton strength={0.3} radius={100}>
               <a
-                href="#contact"
+                href="/cv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 data-hover
-                className="inline-flex items-center gap-2 rounded-xl border border-glass-border bg-glass px-7 py-3.5 font-mono text-sm text-text-secondary transition-all duration-300 hover:border-neon-cyan/30 hover:text-text-primary"
+                className="magnetic-btn group relative inline-flex items-center gap-2 rounded-xl px-7 py-3.5 font-medium text-text-primary transition-all duration-300"
               >
-                <span className="text-neon-cyan">$</span>
-                execute contact
+                <Sparkles size={16} className="text-neon-purple" />
+                <span className="relative z-10">Download CV</span>
               </a>
             </MagneticButton>
           </motion.div>
